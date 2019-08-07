@@ -1,8 +1,5 @@
 package solve1;
 
-
-import java.util.Optional;
-
 public class Node {
 
     private int number;
@@ -13,7 +10,6 @@ public class Node {
     }
 
     public int getNumber(){
-        Optional<String> type = Optional.empty();
         return number;
     }
 
