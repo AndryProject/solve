@@ -6,7 +6,6 @@ public class Main {
         // generate input data
         ClusterGenerator generator = new ClusterGenerator();
         Cluster cluster = generator.generate();
-
         // break connection
         cluster.sendMassage();
 
